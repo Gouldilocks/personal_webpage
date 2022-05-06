@@ -2,7 +2,7 @@
   "name": "jhon-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gouldilocks.github.io/personal_webpage/",
+  "homepage": "https://gouldilocks.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "@fullpage/react-fullpage": "^0.1.17",
