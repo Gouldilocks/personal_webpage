@@ -23,7 +23,7 @@ class About extends Component {
                         </div>
                         <div className="col-lg-5">
                             <div className="about_img">
-                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/apporoach_man_img.png')} alt=""/></Reveal>
+                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/pictureofme.jpg')} alt=""/></Reveal>
                             </div>
                         </div>
                     </div>

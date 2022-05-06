@@ -6,6 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './assets/elagent-icon/style.css';
 import './assets/etline-icon/style.css';
 import './assets/flaticon/flaticon.css';

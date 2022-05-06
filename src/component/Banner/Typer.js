@@ -34,7 +34,7 @@ class Typer extends React.Component {
   
       if (!isDeleting && text === fullText) {
         
-        setTimeout(() => this.setState({ isDeleting: true }), 500);
+        setTimeout(() => this.setState({ isDeleting: true }), 900);
         
       } else if (isDeleting && text === '') {
         

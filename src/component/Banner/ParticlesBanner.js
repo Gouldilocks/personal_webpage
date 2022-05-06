@@ -24,19 +24,22 @@ class ParticlesBanner extends Component {
             <div className="banner_content">
               <Reveal effect="fadeInUp">
                 <h2 className="wow fadeInLeft animated">
-                  I'm {jhonData.name2}
+                  Hello! I'm {jhonData.name}
                 </h2>
               </Reveal>
               <Reveal effect="fadeInUp" duration={1500}>
                 <h3>{jhonData.ptext}</h3>
               </Reveal>
               <Typer
-                heading={"Specialized in"}
+                heading={"Learning about: "}
                 dataText={[
-                  "Developer.",
-                  "Photographer.",
-                  "Designing UI/UX.",
-                  "Freelancer.",
+                  "Machine Learning.",
+                  "AI.",
+                  "UI/UX.",
+                  "Python.",
+                  "JavaScript.",
+                  "React.",
+                  "C++.",
                 ]}
               />
               <ul className="list_style social_icon">
@@ -45,7 +48,7 @@ class ParticlesBanner extends Component {
                     return (
                       <li key={item.name}>
                         <a href={item.url}>
-                          <i className={item.className}></i>
+                          <i class={item.className}></i>
                         </a>
                       </li>
                     );

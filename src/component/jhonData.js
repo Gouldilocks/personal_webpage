@@ -1,34 +1,24 @@
 const jhonData = {
-  name: "John Deo.",
-  name2: "Richard Tea.",
-  name3: "Alexa Johnson",
-  role: "Visual Designer & Front-End Developer,",
-  ptext: "Creative Designer & Developer located in London.",
+  name: "Christian Gould",
+  name2: "Christian Gould",
+  name3: "Christian Gould",
+  role: "Student, Upcoming Developer",
+  ptext: "Student studying Computer Science at Southern Methodist University, Dallas, Texas. I am a developer with a passion for learning and creating, and I am very interested in Machine Learning, AI, REACT, and more.",
   socialLinks: [
     {
-      name: "Facebook",
-      url: "http://www.linkedin.com/",
-      className: "social_facebook",
+      name: "Linked In",
+      className: "social_linkedin",
+      url: "https://www.linkedin.com/in/gouldilocks/"
     },
     {
-      name: "twitter",
-      url: "http://www.twitter.com/",
-      className: "social_twitter",
-    },
-    {
-      name: "googleplus",
-      url: "http://www.googleplus.com",
-      className: "social_googleplus",
-    },
-    {
-      name: "pinterest",
-      url: "http://www.pinterest.com",
-      className: "social_pinterest",
+      name: "Github",
+      className: "bi bi-github",
+      url: "https://gitub.com/Gouldilocks"
     },
   ],
   aboutme: "About Me",
   aboutdetails:
-    "I am Jhone Deo Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing",
+    "This is Christian Gould",
   service: [
     {
       id: 1,
@@ -79,24 +69,14 @@ const jhonData = {
       title: "Contact Info",
       menuItems: [
         {
-          id: 1,
-          icon: "icon_pin_alt",
-          text: "Address: Z105 - Tan Thinh, Thai Nguyen - Viet Nam",
-        },
-        {
           id: 2,
           icon: "icon_phone",
-          text: "Phone: +1.900.3456.789",
+          text: "Phone: 469-471-1845",
         },
         {
           id: 3,
           icon: "icon_mail",
-          text: "Email: yourname@somemail.com",
-        },
-        {
-          id: 4,
-          icon: "icon_globe",
-          text: "Website: http://example.com",
+          text: "Email: cagould@smu.edu",
         },
       ],
     },
