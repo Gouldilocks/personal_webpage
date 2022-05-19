@@ -5,6 +5,15 @@ object-assign
 */
 
 /*!
+         * JS File Downloader v 1.1.24
+         * https://github.com/AleeeKoi/js-file-downloader
+         *
+         * Copyright Alessandro Pellizzari
+         * Released under the MIT license
+         * http://opensource.org/licenses/MIT
+         */
+
+/*!
    * Sizzle CSS Selector Engine v2.3.6
    * https://sizzlejs.com/
    *
@@ -22,34 +31,10 @@ object-assign
   */
 
 /*!
-  * Scrolloverflow 2.0.6 module for fullPage.js >= 3
-  * https://github.com/alvarotrigo/fullPage.js
-  * @license MIT licensed
-  *
-  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
-  */
-
-/*!
-  * fullPage 3.1.0 - Extensions 0.2.2
-  * https://github.com/alvarotrigo/fullPage.js
-  * @license http://alvarotrigo.com/fullPage/extensions/#license
-  *
-  * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo
-  */
-
-/*!
   Copyright (c) 2018 Jed Watson.
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
 */
-
-/*!
- * @fullpage/react-fullpage 0.1.19
- * https://github.com/alvarotrigo/react-fullpage
- * @license https://github.com/alvarotrigo/react-fullpage#license
- *
- * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo & Michael Walker
- */
 
 /*!
  * Isotope v3.0.6
@@ -107,11 +92,49 @@ object-assign
  * Date: 2021-03-02T17:08Z
  */
 
+/*! ./exception */
+
+/*! ./signatures */
+
+/*! @babel/runtime/regenerator */
+
+/*! exports provided: DownloadException, downloadException */
+
+/*! exports provided: default */
+
+/*! exports provided: fileSignatures */
+
+/*! no static exports found */
+
+/*! regenerator-runtime */
+
+/*!**********************!*\
+        !*** ./src/index.js ***!
+        \**********************/
+
+/*!**************************!*\
+        !*** ./src/exception.js ***!
+        \**************************/
+
+/*!***************************!*\
+        !*** ./src/signatures.js ***!
+        \***************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/regenerator-runtime/runtime.js ***!
+        \*****************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+        \**********************************************************/
+
 /**
-  * Customized version of iScroll.js 0.1.3
-  * It fixes bugs affecting its integration with fullpage.js
-  * @license
-  */
+ * A better abstraction over CSS.
+ *
+ * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
+ * @website https://github.com/cssinjs/jss
+ * @license MIT
+ */
 
 /** @license React v0.19.1
  * scheduler.production.min.js
