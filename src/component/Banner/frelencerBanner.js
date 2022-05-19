@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Reveal } from "react-reveal/";
+// import Button from Mui
+import { Button } from '@mui/material';
 
 class frelencerBanner extends Component {
   render() {
@@ -37,9 +39,12 @@ class frelencerBanner extends Component {
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>
-                  <a href="./" className="theme_btn active">
+                  {/* <a href="./" className="theme_btn active">
                     Hire me
-                  </a>
+                  </a> */}
+                  <Button>
+                    Hire me!
+                  </Button>
                 </Reveal>
               </div>
             </div>

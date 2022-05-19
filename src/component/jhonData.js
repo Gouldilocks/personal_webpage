@@ -18,7 +18,7 @@ const jhonData = {
   ],
   aboutme: "About Me",
   aboutdetails:
-    "This is Christian Gould",
+    "This is Christian Gould Hello! I'm Christian Gould, and I am an up and coming computer science student, with a love for machine learning and AI. I have worked for McKesson as a Software Engineering intern, and I will be working this summer 2022 as a Software Engineering intern as well. I hope to learn all that I can so that I can be an effective developer in the future. I aim to one day earn a P.H.D. in Computer Science.",
   service: [
     {
       id: 1,
@@ -126,7 +126,7 @@ const jhonData = {
   awards: [
     {
       id: 1,
-      image: "logo1.png",
+      image: "icon.jpeg",
       ctile: "Site of the year 2020",
       date: "April 2020",
       description: "For most favorited design voted by NY City Style customers",
@@ -135,7 +135,7 @@ const jhonData = {
     },
     {
       id: 2,
-      image: "logo2.png",
+      image: "icon.jpeg",
       ctile: "Theme of the day 2021",
       date: "March 2021",
       description: "For most favorited design voted by NY City Style customers",
@@ -144,7 +144,7 @@ const jhonData = {
     },
     {
       id: 3,
-      image: "logo2.png",
+      image: "icon.jpeg",
       ctile: "Best design awwards",
       date: "March 2021",
       description: "For most favorited design voted by NY City Style customers",

@@ -17,8 +17,8 @@ export const HomeDeveloper = () => (
     <Navbar
       mClass="dark_menu"
       mContainer="custome_container"
-      mainlogo="logo2.png"
-      stickylogo="logo.png"
+      mainlogo="icon.jpeg"
+      stickylogo="icon.jpeg"
     />
     <DBanner jhonData={jhonData} />
     <DAbout jhonData={jhonData} />

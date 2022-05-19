@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import {Fade, Reveal} from 'react-reveal/';
+import {Fade, Reveal} from 'react-reveal';
+import { Button } from '@material-ui/core';
+import JsFileDownloader from 'js-file-downloader';
 
+
+const fileUrl = 'https://github.com/Gouldilocks/currentResume/blob/main/Christian_Aaron_Gould_R.docx';
 class About extends Component {
     render(){
         let jhonData = this.props.jhonData; 
@@ -16,8 +20,24 @@ class About extends Component {
                                     <h2 className="t_color">{jhonData.aboutme}</h2>
                                     <h6>{jhonData.role}</h6>
                                     <p>{jhonData.aboutdetails}</p>
-                                    <Link to="/"  className="theme_btn active">Hire Me</Link>
-                                    <Link to="/" className="theme_btn">Download CV</Link>
+                                    <Button
+                                        onClick={
+                                            () => {
+                                                new JsFileDownloader({
+                                                    url: fileUrl
+                                                }).then(
+                                                    (data) => {
+                                                        alert("File downloaded successfully");
+                                                    }
+                                                );
+                                            }
+                                        }
+                                        style={{
+                                            width: '10rem',
+                                            height: '4rem',
+                                        }}
+                                        className="theme_btn active">
+                                        Download Resume</Button>
                                 </div>
                             </Fade>
                         </div>

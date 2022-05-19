@@ -13,10 +13,9 @@ import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
 import jhonData from './component/jhonData';
 
-
 export const Home3 = () => (
   <div className="body_wrapper">
-      <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>
+      <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="icon.jpeg" stickylogo="icon.jpeg"/>
       <ParticlesBanner jhonData={jhonData}/>
       <About aClass='about_area bg_color' jhonData={jhonData}/>
       <Service wClass="work_area_two" jhonData={jhonData}/>
@@ -30,5 +29,3 @@ export const Home3 = () => (
       <Footer jhonData={jhonData}/>
   </div>
 )
-
-

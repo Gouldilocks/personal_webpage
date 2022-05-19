@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Particles from "./Particles";
-import Reveal from "react-reveal/Reveal/";
+import Reveal from "react-reveal/Reveal"; 
 import Typer from "./Typer";
 
 class ParticlesBanner extends Component {
@@ -48,7 +48,7 @@ class ParticlesBanner extends Component {
                     return (
                       <li key={item.name}>
                         <a href={item.url}>
-                          <i class={item.className}></i>
+                          <i className={item.className}></i>
                         </a>
                       </li>
                     );
