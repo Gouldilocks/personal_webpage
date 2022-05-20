@@ -72,7 +72,7 @@ class Navbar extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Service
+                    Projects
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -85,7 +85,7 @@ class Navbar extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Portfolio
+                    Experience
                   </Link>
                 </li>
                 <li className="nav-item">

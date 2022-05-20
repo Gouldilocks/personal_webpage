@@ -5,7 +5,7 @@ import { Button } from '@material-ui/core';
 import JsFileDownloader from 'js-file-downloader';
 
 
-const fileUrl = 'https://github.com/Gouldilocks/currentResume/blob/main/Christian_Aaron_Gould_R.docx';
+const fileUrl = 'https://github.com/Gouldilocks/currentResume/raw/main/Christian_Aaron_Gould_R.docx';
 class About extends Component {
     render(){
         let jhonData = this.props.jhonData; 
@@ -23,13 +23,7 @@ class About extends Component {
                                     <Button
                                         onClick={
                                             () => {
-                                                new JsFileDownloader({
-                                                    url: fileUrl
-                                                }).then(
-                                                    (data) => {
-                                                        alert("File downloaded successfully");
-                                                    }
-                                                );
+                                                window.open(fileUrl, '_blank');
                                             }
                                         }
                                         style={{

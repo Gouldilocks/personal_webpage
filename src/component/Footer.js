@@ -24,10 +24,8 @@ class Footer extends Component{
                                 }
                             </ul>
                         </Fade>
-                        
-                        <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                        <p>© 2019 Blazethemez - All Rights Reserved</p>
                     </div>
+                    <h2> Christian Gould </h2>
                 </div>
             </section>
         )

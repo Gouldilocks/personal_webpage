@@ -22,9 +22,7 @@ export const Home3 = () => (
       <Portfolio pClass="bg_color"/>
       <Skill cClass="bg_w"/>
       <Testimonial/>
-      <Clientslogo/>
       <Blog/>
-      <MapContainer/>
       <Contact jhonData={jhonData}/>
       <Footer jhonData={jhonData}/>
   </div>

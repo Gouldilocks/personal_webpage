@@ -47,12 +47,13 @@ class Skill extends Component {
             <section className={`project_count_area ${cClass}`}>
                 <div className="container">
                     <Reveal effect="fadeInUp">
-                        <div className="row">
-                            <CounterItem CText='200' pdescription='Total Projects' icon='briefcase'/>
-                            <CounterItem CText='120' pdescription='Happy Clients' icon='happy'/>
-                            <CounterItem CText='4' pdescription='Years of Experience' icon='calendar'/>
-                            <CounterItem CText='10' pdescription='Award Won' icon='trophy'/>
+                      <div class="d-flex">
+                        <div className="row d-flex justify-content-center">
+                            <CounterItem CText='2' pdescription='Internships' icon='briefcase'/>
+                            <CounterItem CText='10' pdescription='TA Sections' icon='happy'/>
+                            <CounterItem CText='2' pdescription='Years of Experience' icon='calendar'/>
                         </div>
+                      </div>
                     </Reveal>
                 </div>
             </section>

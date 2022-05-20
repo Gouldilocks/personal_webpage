@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Sectiontitle from '../component/Banner/Sectiontitle';
 import Fade from 'react-reveal/Fade';
+import { Button,Box } from '@material-ui/core';
 
 class Service extends Component{
     render(){
@@ -9,17 +10,24 @@ class Service extends Component{
         return(
             <section className={`${wClass}`} id="service">
                 <div className="container">
-                    <Sectiontitle Title="What I'm Doing" TitleP="I love what I do. I take great pride in what I do."/>
+                    <Sectiontitle Title="What I'm Doing" TitleP="I love what I do, and I take great pride in all that I do."/>
                     <Fade bottom cascade duration={1000}>
                         <div className="row">
                             {
                                 jhonData.service && jhonData.service.map(item =>{
                                 return(
-                                        <div className="col-lg-4 col-sm-6" key={item.id}>
+                                    <div className="col-lg-4 col-sm-6" key={item.id}>
                                             <div className="work_item wow fadeInUp" data-wow-delay="0.1s">
-                                                <i className={item.iconName}></i>
-                                                <a href=".#"><h2 className="t_color">{item.serviceTitle}</h2></a>
-                                                <p>{item.sDetails}</p>
+                                            <div class="d-flex justify-content-center">
+                                                <img class="d-flex rounded img-fluid" src={item.iconName} alt="Picture For Project" /> 
+                                            </div> 
+                                            <a href=".#"><h2 className="t_color">{item.serviceTitle}</h2></a>
+                                            <p>{item.sDetails}</p>
+                                            <Button onClick={() => {
+                                                window.open(item.link, '_blank');
+                                            }}
+                                            variant="outlined"
+                                            > View Repository </Button>
                                             </div>
                                         </div>
                                         )

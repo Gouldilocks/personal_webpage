@@ -22,24 +22,27 @@ const jhonData = {
   service: [
     {
       id: 1,
-      iconName: "icon-desktop",
+      iconName: "https://www.w3schools.com/whatis/img_js.png",
       serviceTitle: "Web Design",
       sDetails:
-        "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.",
+        "I have created a website from scratch, which is fully backend integrated, called \"Ranchy\". This website allows ranchers to more easily manage their ranch, and allows for the creation of new ranchs. This website is built with React, and was hosted on AWS. This website is fully responsive, and allows for mobile viewing",
+      link: "https://github.com/Gouldilocks/DB-GUI-S22",
     },
     {
       id: 2,
-      iconName: "icon-pencil",
-      serviceTitle: "Development",
+      iconName: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/machineLearning3.png",
+      serviceTitle: "Machine Learning",
       sDetails:
-        "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.",
+        "I have created a project called piFace, which is a Raspberry Pi based project that allows for the creation of a face recognition and emotion detection system. This project is built with Python, and uses the OpenCV library, along with the dlib library. It uses a model that is trained on a large dataset of faces which were pre-sorted, and uses that while detecting faces from your webcam.",
+      link: "https://github.com/Gouldilocks/piFace",
     },
     {
       id: 3,
-      iconName: "icon-presentation",
-      serviceTitle: "Marketing",
+      iconName: "https://media.istockphoto.com/vectors/orange-automatic-vending-machine-isolated-vector-illustration-vector-id836212440?k=20&m=836212440&s=612x612&w=0&h=MIAlYYISjL0TWAPyAgvVDU1jK9MRzceqPEDe913sKmU=",
+      serviceTitle: "Hardware",
       sDetails:
-        "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.",
+        "I created a Vending machine for one of my TA positions, which is an Arduino/Raspberry pi project. It uses Pandas dataframes and google's API for editing a google sheets page for use as a database. This vending machine was used for proper student material distribution, and was made using Google Sheets in order for other non-Computer savy TA's to manage it effectively.",
+      link: "https://github.com/Gouldilocks/Vmachine"
     },
     {
       id: 4,

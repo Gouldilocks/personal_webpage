@@ -12,6 +12,7 @@ class Form extends React.Component {
         email: "",
       },
     };
+    emailjs.init('i1YSjrWvkaXsfw2mw');
   }
 
   handleChange = (event) => {
@@ -60,8 +61,8 @@ class Form extends React.Component {
     // }
     emailjs
       .sendForm(
+        "service_haa7ckc",
         "gmail",
-        "template_zo1q2mh",
         e.target,
         "user_vvQtVRIgqRETJC2JHOJz9"
       )
