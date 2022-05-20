@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc9c730cb20cd8c40ac3096c564e681f",
+    "revision": "759ea87cf12b402cbf10f60640c60cbf",
     "url": "/personal_webpage/index.html"
   },
   {
-    "revision": "322c4136760cfbd8a5eb",
+    "revision": "4d5e0454999a56b10293",
     "url": "/personal_webpage/static/css/2.aad46717.chunk.css"
   },
   {
-    "revision": "db07ae49fcd9e482e561",
+    "revision": "214ebf40f3112d846ad5",
     "url": "/personal_webpage/static/css/main.25835da0.chunk.css"
   },
   {
-    "revision": "322c4136760cfbd8a5eb",
-    "url": "/personal_webpage/static/js/2.d229cb05.chunk.js"
+    "revision": "4d5e0454999a56b10293",
+    "url": "/personal_webpage/static/js/2.261c73e6.chunk.js"
   },
   {
     "revision": "49672a9bfcf12b08709ea5a693c4b9a2",
-    "url": "/personal_webpage/static/js/2.d229cb05.chunk.js.LICENSE.txt"
+    "url": "/personal_webpage/static/js/2.261c73e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db07ae49fcd9e482e561",
-    "url": "/personal_webpage/static/js/main.81e56fbd.chunk.js"
+    "revision": "214ebf40f3112d846ad5",
+    "url": "/personal_webpage/static/js/main.22a2ee24.chunk.js"
   },
   {
     "revision": "7b01331548ed88cf3988",
@@ -114,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b40f85cbdcf06fbe1eec80a3d7988860",
     "url": "/personal_webpage/static/media/Sail-Away.b40f85cb.jpg"
-  },
-  {
-    "revision": "f6fa49681c1b53facb6b0299b639d957",
-    "url": "/personal_webpage/static/media/agency-skill.f6fa4968.jpg"
   },
   {
     "revision": "a8390908ff9325f79e5c9c1950d66bc8",
