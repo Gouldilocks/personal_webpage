@@ -21,8 +21,8 @@ export const Home3 = () => (
       <Service wClass="work_area_two" jhonData={jhonData}/>
       <Portfolio pClass="bg_color"/>
       <Skill cClass="bg_w"/>
-      <Testimonial/>
-      <Blog/>
+      {/* <Testimonial/> */}
+      {/* <Blog/> */}
       <Contact jhonData={jhonData}/>
       <Footer jhonData={jhonData}/>
   </div>

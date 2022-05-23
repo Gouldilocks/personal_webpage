@@ -4,6 +4,7 @@ const jhonData = {
   name3: "Christian Gould",
   role: "Student, Upcoming Developer",
   ptext: "Student studying Computer Science at Southern Methodist University, Dallas, Texas. I am a developer with a passion for learning and creating, and I am very interested in Machine Learning, AI, REACT, and more.",
+  // Link bubbles at the homescreen
   socialLinks: [
     {
       name: "Linked In",
@@ -16,9 +17,12 @@ const jhonData = {
       url: "https://gitub.com/Gouldilocks"
     },
   ],
+  // About me
   aboutme: "About Me",
   aboutdetails:
     "This is Christian Gould Hello! I'm Christian Gould, and I am an up and coming computer science student, with a love for machine learning and AI. I have worked for McKesson as a Software Engineering intern, and I will be working this summer 2022 as a Software Engineering intern as well. I hope to learn all that I can so that I can be an effective developer in the future. I aim to one day earn a P.H.D. in Computer Science.",
+
+    // Projects
   service: [
     {
       id: 1,
@@ -43,27 +47,6 @@ const jhonData = {
       sDetails:
         "I created a Vending machine for one of my TA positions, which is an Arduino/Raspberry pi project. It uses Pandas dataframes and google's API for editing a google sheets page for use as a database. This vending machine was used for proper student material distribution, and was made using Google Sheets in order for other non-Computer savy TA's to manage it effectively.",
       link: "https://github.com/Gouldilocks/Vmachine"
-    },
-    {
-      id: 4,
-      iconName: "icon-linegraph",
-      serviceTitle: "Strategy",
-      sDetails:
-        "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.",
-    },
-    {
-      id: 5,
-      iconName: "icon-gears",
-      serviceTitle: "Support",
-      sDetails:
-        "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.",
-    },
-    {
-      id: 6,
-      iconName: "icon-tools",
-      serviceTitle: "We’re experienced",
-      sDetails:
-        "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.",
     },
   ],
   contact: [

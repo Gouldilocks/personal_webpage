@@ -49,27 +49,17 @@ class Form extends React.Component {
 
   submitHandler = (e) => {
     e.preventDefault();
-    // if (
-    //   this.state.errors.name.length === 0 &&
-    //   this.state.errors.subject.length === 0 &&
-    //   this.state.errors.phone.length === 0 &&
-    //   this.state.errors.email.length === 0
-    // ) {
-    //   alert("form is valid");
-    // } else {
-    //   alert("form is invalid");
-    // }
     emailjs
       .sendForm(
         "service_haa7ckc",
-        "gmail",
+        "template_9n65yab",
         e.target,
-        "user_vvQtVRIgqRETJC2JHOJz9"
+        "i1YSjrWvkaXsfw2mw"
       )
       .then(
         (result) => {
           console.log(result.text);
-          alert("form is valid");
+          alert("Your Message Has Been Sent!");
         },
         (error) => {
           console.log(error.text);
