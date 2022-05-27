@@ -20,7 +20,7 @@ const jhonData = {
   // About me
   aboutme: "About Me",
   aboutdetails:
-    "This is Christian Gould Hello! I'm Christian Gould, and I am an up and coming computer science student, with a love for machine learning and AI. I have worked for McKesson as a Software Engineering intern, and I will be working this summer 2022 as a Software Engineering intern as well. I hope to learn all that I can so that I can be an effective developer in the future. I aim to one day earn a P.H.D. in Computer Science.",
+    "Hello! I'm Christian Gould, and I am an up and coming computer science student, with a love for machine learning and AI. I have worked for McKesson as a Software Engineering intern, and I will be working this summer 2022 as a Software Engineering intern as well. I hope to learn all that I can so that I can be an effective developer in the future. I aim to one day earn a P.H.D. in Computer Science.",
 
     // Projects
   service: [
