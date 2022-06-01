@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
 import anime from 'animejs/lib/anime.es.js';
 import CounterItem from '../Skill/CounterItem';
-import Reveal from 'react-reveal/Reveal/';
+import Reveal from 'react-reveal/Reveal';
 
 
 class Skill extends Component {

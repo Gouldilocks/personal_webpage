@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import { Parallax} from 'react-parallax/';
-import {Fade , Reveal} from 'react-reveal/';
+import { Parallax } from 'react-parallax/';
+import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
 const image = require('../../image/profile.jpg');
 
 class Banner extends Component {

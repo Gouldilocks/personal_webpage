@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Reveal from 'react-reveal/Reveal/';
+import Reveal from 'react-reveal/Reveal';
+
 class Sectiontitle extends Component {
     render(){
         var {Title, TitleP} = this.props;

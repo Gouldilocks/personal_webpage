@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Reveal from "react-reveal/Reveal/";
+import Reveal from "react-reveal/Reveal";
 import Form from "./Form";
 
 class Contact extends Component {

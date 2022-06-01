@@ -1052,8 +1052,6 @@ h6 {
 
 /*=============== testimonial_area css  ==============*/
 .testimonial_area {
-  background: url("/image/portfolio/img-3.jpg") no-repeat scroll center 0 /
-    cover;
   position: relative;
   z-index: 1;
   padding: 120px 0px;
