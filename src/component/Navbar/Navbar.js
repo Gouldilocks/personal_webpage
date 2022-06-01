@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
+import { Button } from "@material-ui/core";
+import { useNavigate } from 'react-router-dom'
+
 class Navbar extends Component {
   render() {
     var { mClass, mContainer, mainlogo, stickylogo } = this.props;
@@ -12,12 +15,12 @@ class Navbar extends Component {
               <img src={require("../../image/" + mainlogo)} alt="" />
               <img src={require("../../image/" + stickylogo)} alt="" />
             </a>
-            <a
-              href="./"
-              className="btn get-btn get-btn-two d-lg-none d-md-block login"
-            >
-              Login
-            </a>
+            <Button onClick={() => {
+              // let navigate = useNavigate();
+              // navigate('/blog');
+            }}>
+              Blog
+            </Button>
             <button
               className="navbar-toggler"
               type="button"
@@ -88,7 +91,7 @@ class Navbar extends Component {
                     Experience
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link"
                     activeClass="active"
@@ -100,8 +103,8 @@ class Navbar extends Component {
                   >
                     Testimonial
                   </Link>
-                </li>
-                <li className="nav-item">
+                </li> */}
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link"
                     activeClass="active"
@@ -113,7 +116,7 @@ class Navbar extends Component {
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link"
