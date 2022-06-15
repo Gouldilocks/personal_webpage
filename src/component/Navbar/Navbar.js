@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
 import { Button } from "@material-ui/core";
 import { useNavigate } from 'react-router-dom'
 
-class Navbar extends Component {
-  render() {
-    var { mClass, mContainer, mainlogo, stickylogo } = this.props;
+export default function Navbar({mClass, mContainer, mainlogo, stickylogo}) {
+    let navigate = useNavigate();
     return (
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
@@ -15,12 +14,6 @@ class Navbar extends Component {
               <img src={require("../../image/" + mainlogo)} alt="" />
               <img src={require("../../image/" + stickylogo)} alt="" />
             </a>
-            <Button onClick={() => {
-              let navigate = useNavigate();
-              navigate('/blog');
-            }}>
-              Blog
-            </Button>
             <button
               className="navbar-toggler"
               type="button"
@@ -131,10 +124,11 @@ class Navbar extends Component {
                   </Link>
                 </li>
               </ul>
+              {/* LOGIN BUTTON, PROBABLY DON'T NEED THIS */}
               <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                 <li className="nav-item">
-                  <a href="./" className="login">
-                    login
+                  <a href="./blog" className="login">
+                    Blog
                   </a>
                 </li>
               </ul>
@@ -143,7 +137,4 @@ class Navbar extends Component {
         </nav>
       </Sticky>
     );
-  }
 }
-
-export default Navbar;

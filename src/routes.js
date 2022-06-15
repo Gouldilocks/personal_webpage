@@ -20,10 +20,10 @@ export default function Router() {
       element: <PersonalBlog />
     },
 
-    // {
-    //   path: "*",
-    //   element: <NotFound />
-    // }
+    {
+      path: "*",
+      element: <NotFound />
+    }
 
   ]);
 }
