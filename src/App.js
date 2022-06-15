@@ -9,9 +9,9 @@ import {default as Router} from "./routes";
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      // <React.Fragment>
         <Router/>
-      </React.Fragment>
+      // </React.Fragment>
     );
   }
 }
