@@ -12,7 +12,7 @@ export default function Router() {
 
     {
       path: "/personal_webpage",
-      element: <Home3 />
+      element: <Home3 />,
     },
     
     {
