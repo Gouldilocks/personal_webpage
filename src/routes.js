@@ -6,12 +6,12 @@ import { useRoutes } from "react-router-dom";
 export default function Router() {
   return useRoutes([
     {
-      path: "/",
+      path: "/cgould.net",
       element: <Home3 />
     },
 
     {
-      path: "/blog",
+      path: "/cgould.net/blog",
       element: <PersonalBlog />
     },
 
