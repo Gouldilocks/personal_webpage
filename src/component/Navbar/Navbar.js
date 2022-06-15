@@ -16,8 +16,8 @@ class Navbar extends Component {
               <img src={require("../../image/" + stickylogo)} alt="" />
             </a>
             <Button onClick={() => {
-              // let navigate = useNavigate();
-              // navigate('/blog');
+              let navigate = useNavigate();
+              navigate('/blog');
             }}>
               Blog
             </Button>
