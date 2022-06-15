@@ -3,8 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -18,11 +17,12 @@ import './assets/css/style.css';
 import './assets/css/responsive.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'popper.js';
+
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
   , document.getElementById('root')
 );
