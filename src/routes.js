@@ -10,10 +10,10 @@ export default function Router() {
       element: <Home3 />
     },
 
-    {
-      path: "/personal_webpage",
-      element: <Home3 />,
-    },
+    // {
+    //   path: "/personal_webpage",
+    //   element: <Home3 />,
+    // },
     
     {
       path: "/blog",
