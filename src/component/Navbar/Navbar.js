@@ -127,7 +127,7 @@ export default function Navbar({mClass, mContainer, mainlogo, stickylogo}) {
               {/* LOGIN BUTTON, PROBABLY DON'T NEED THIS */}
               <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                 <li className="nav-item">
-                  <a href="./blog" className="login">
+                  <a href="/blog" className="login">
                     Blog
                   </a>
                 </li>
