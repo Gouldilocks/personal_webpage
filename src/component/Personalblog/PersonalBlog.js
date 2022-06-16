@@ -1,8 +1,20 @@
 import React from "react"
-import { useNavigate } from "react-router-dom";
-import { Button } from "@material-ui/core";
+import { Fade, Reveal } from 'react-reveal';
+import { Button, Card, Grid, CardMedia, CardContent, Typography} from '@material-ui/core';
 
-export default function PersonalBlog({changeBlog}) {
+export default function PersonalBlog({changeBlog, blogData}) {
+
+
+  const cardStyle = {
+    maxHeight: "100%",
+  }
+
+  const cardMediaStyle = {
+    height: "20rem",
+    width: "20rem",
+    objectFit: "cover",
+  }
+
   return (
     <>
       <div>
@@ -13,42 +25,31 @@ export default function PersonalBlog({changeBlog}) {
       }}>
         Return to Website
       </Button>
-
-
-
-
-      <section className={`${aClass}`} id="about">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-7 d-flex align-items-center">
-              <Fade bottom cascade duration={1000}>
-                <div className="about_content">
-                  <h2 className="t_color">{jhonData.aboutme}</h2>
-                  <h6>{jhonData.role}</h6>
-                  <p>{jhonData.aboutdetails}</p>
-                  <Button
-                    onClick={
-                      () => {
-                        window.open(fileUrl, '_blank');
-                      }
-                    }
-                    style={{
-                      width: '10rem',
-                      height: '4rem',
-                    }}
-                    className="theme_btn active">
-                    Download Resume</Button>
-                </div>
-              </Fade>
-            </div>
-            <div className="col-lg-5">
-              <div className="about_img">
-                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/pictureofme.jpg')} alt="" /></Reveal>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <br></br>
+      <Grid container spacing={5}>
+        {blogData.map((blog) => (
+          <Fade bottom cascade duration={1000}>
+            <Grid item xs={6} key={blog.id}>
+              <Card style={cardStyle}>
+                <CardMedia
+                  component="img"
+                  image={blog.image}
+                  alt="image for blog"
+                  style={cardMediaStyle}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {blog.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {blog.message}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Fade>
+        ))}
+      </Grid>
     </>
   )
 }

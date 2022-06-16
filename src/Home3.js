@@ -13,6 +13,7 @@ import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
 import jhonData from './component/jhonData';
 import { PersonalBlog } from './component/Personalblog';
+import blogData from './blogData';
 
 export function Home3() {
   const [showBlog, setShowBlog] = React.useState(false);
@@ -22,7 +23,8 @@ export function Home3() {
 
   return (
     <div className="body_wrapper">
-      {(showBlog) ? <PersonalBlog changeBlog={changeBlog} /> :
+      {console.log('blogdata is: ', blogData)}
+      {(showBlog) ? <PersonalBlog changeBlog={changeBlog} blogData={blogData} /> :
         <div className='webpage'>
           <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="icon.jpeg" stickylogo="icon.jpeg" changeBlog={changeBlog} />
           <ParticlesBanner jhonData={jhonData} />
