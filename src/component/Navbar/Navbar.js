@@ -4,8 +4,7 @@ import { Link } from "react-scroll";
 import { Button } from "@material-ui/core";
 import { useNavigate } from 'react-router-dom'
 
-export default function Navbar({mClass, mContainer, mainlogo, stickylogo}) {
-    let navigate = useNavigate();
+export default function Navbar({mClass, mContainer, mainlogo, stickylogo, changeBlog}) {
     return (
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
@@ -124,13 +123,12 @@ export default function Navbar({mClass, mContainer, mainlogo, stickylogo}) {
                   </Link>
                 </li>
               </ul>
-              {/* LOGIN BUTTON, PROBABLY DON'T NEED THIS */}
               <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
-                <li className="nav-item">
-                  <a href="/blog" className="login">
-                    Blog
-                  </a>
-                </li>
+                <Button onClick={() => {
+                  changeBlog();
+                }}>
+                  Blog
+                </Button>
               </ul>
             </div>
           </div>
