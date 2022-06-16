@@ -19,11 +19,9 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'popper.js';
 
 ReactDOM.render(
-  <React.StrictMode>
     <HashRouter>
       <App />
     </HashRouter>
-  </React.StrictMode>
   , document.getElementById('root')
 );
 
