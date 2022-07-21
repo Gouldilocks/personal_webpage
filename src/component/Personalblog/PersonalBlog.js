@@ -6,7 +6,7 @@ export default function PersonalBlog({changeBlog, blogData}) {
 
 
   const cardStyle = {
-    maxHeight: "100%",
+    maxHeight: "50%",
   }
 
   const cardMediaStyle = {
@@ -20,12 +20,16 @@ export default function PersonalBlog({changeBlog, blogData}) {
       <div>
         Hello From the Blog! This is a work in progress, and has not content as of yet.
       </div> 
+	<Grid container spacing={5}>
+	  <Grid item xs={12}>
       <Button onClick={() => {
         changeBlog();
       }}>
         Return to Website
       </Button>
+	  </Grid>
       <br></br>
+	  <Grid item xs={12}>
       <Grid container spacing={5}>
         {blogData.map((blog) => (
           <Fade bottom cascade duration={1000}>
@@ -49,7 +53,9 @@ export default function PersonalBlog({changeBlog, blogData}) {
             </Grid>
           </Fade>
         ))}
+	  </Grid>
       </Grid>
+  </Grid>
     </>
   )
 }
