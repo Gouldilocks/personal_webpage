@@ -5,6 +5,23 @@ import { Grid,Card,CardMedia,CardContent,CardActions,Button } from '@material-ui
 
 let Experiences = [
     {
+        title: 'Technology Internship Program',
+        company: 'Capital One',
+        location: 'Plano, TX',
+        date: 'June 2022 - August 2022',
+        image: 'https://9jagistreel.com/wp-content/uploads/2021/03/Capital-One-Financial-Corporation.png',
+        description: [
+            'Worked in a team of 5 Software Engineering interns on a web application microservice in the financial department',
+            'Participated in daily standups in a SCRUM AGILE environment, with 2 week sprints and retrospectives after each',
+            'Deployed a microservice utilizing an OCR api in order to enable word searching in scanned documents for improved workflow of auto funders',
+            'Subscribed to java events and created 2 endpoints in Java 8 Spring Boot',
+            'Wrote regex to mask personal information from stored data',
+            'Completed end to end testing with functional testing principles',
+            'Edited production-level code in Angular to add new componences necessary for the frontend of the microservice to be used in a gui by funders of auto loans'
+        ],
+    },
+
+    {
         title: 'Software Engineering Internship Program',
         company: 'McKesson',
         location: 'Irving, TX',
@@ -19,16 +36,7 @@ let Experiences = [
             'Adapted an easily expandable, object - oriented approach to injecting loggers into various areas of a code base, to allow for a smoother and future - proof approach to debugging java code',
         ],
     },
-    {
-        title: 'Technology Internship Program',
-        company: 'Capital One',
-        location: 'Plano, TX',
-        date: 'June 2022 - August 2022',
-        image: 'https://www.annualreports.com/HostedData/CompanyHeader/NYSE_COF.png',
-        description: [
-            'Internship Program Not Completed Yet',
-        ],
-    },
+
     {
         title: 'Teaching Assistant',
         company: 'Lyle School of Engineering',
