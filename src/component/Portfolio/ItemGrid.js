@@ -5,11 +5,21 @@ import { Grid,Card,CardMedia,CardContent,CardActions,Button } from '@material-ui
 
 let Experiences = [
     {
+        title: 'Technology Development Program',
+        company: 'Capital One',
+        location: 'Plano, TX',
+        date: 'August 2023 - Present',
+        image: 'https://fastly.4sqi.net/img/general/600x600/87384844_PpnZd5jAGeEuglj3VU-1BBaS1hY4h2_hsP-PAGPrKKc.jpg',
+        description: [
+            'has not begun yet',
+        ],
+    }
+    ,{
         title: 'Technology Internship Program',
         company: 'Capital One',
         location: 'Plano, TX',
         date: 'June 2022 - August 2022',
-        image: 'https://9jagistreel.com/wp-content/uploads/2021/03/Capital-One-Financial-Corporation.png',
+        image: 'https://fastly.4sqi.net/img/general/600x600/87384844_PpnZd5jAGeEuglj3VU-1BBaS1hY4h2_hsP-PAGPrKKc.jpg',
         description: [
             'Worked in a team of 5 Software Engineering interns on a web application microservice in the financial department',
             'Participated in daily standups in a SCRUM AGILE environment, with 2 week sprints and retrospectives after each',
@@ -42,7 +52,7 @@ let Experiences = [
         company: 'Lyle School of Engineering',
         location: 'Dallas, TX',
         date: 'August 2020 - Present',
-        image: 'https://lyleonline.smu.edu/static/logo.png',
+        image: 'https://www2.economicgateway.com/media/userfiles/subsite_162/images/logos/smu-logo.jpg',
         description: [
             'Mentored one team each semester in leadership and interpersonal communication development',
             'Monitored a team\'s progress on meeting deadlines, and assisted with technical and leadership issues',

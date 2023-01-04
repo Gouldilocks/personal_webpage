@@ -10,9 +10,9 @@ class Service extends Component{
         return(
             <section className={`${wClass}`} id="service">
                 <div className="container">
-                    <Sectiontitle Title="What I'm Doing" TitleP="I love what I do, and I take great pride in all that I do."/>
+                    <Sectiontitle Title="What I'm Doing" TitleP="I love what I do! Here are a few examples of some of what I have worked on in the past."/>
                     <Fade bottom cascade duration={1000}>
-                        <div className="row">
+                        <div className="row justify-content-center">
                             {
                                 jhonData.service && jhonData.service.map(item =>{
                                 return(
@@ -27,7 +27,7 @@ class Service extends Component{
                                                 window.open(item.link, '_blank');
                                             }}
                                             variant="outlined"
-                                            > View Repository </Button>
+                                            > {item.button_name} </Button>
                                             </div>
                                         </div>
                                         )

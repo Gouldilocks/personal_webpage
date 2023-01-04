@@ -50,7 +50,7 @@ class Skill extends Component {
                       <div class="d-flex">
                         <div className="row d-flex justify-content-center">
                             <CounterItem CText='2' pdescription='Internships' icon='briefcase'/>
-                            <CounterItem CText='11' pdescription='TA Sections' icon='happy'/>
+                            <CounterItem CText='12' pdescription='TA Sections' icon='happy'/>
                             <CounterItem CText='2' pdescription='Years of Experience' icon='calendar'/>
                         </div>
                       </div>

@@ -11,7 +11,7 @@ import MapContainer from './component/Map';
 import Contact from './component/Contact';
 import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
-import jhonData from './component/jhonData';
+import jhonData from './component/personalData';
 import { PersonalBlog } from './component/Personalblog';
 
 export function Home3() {

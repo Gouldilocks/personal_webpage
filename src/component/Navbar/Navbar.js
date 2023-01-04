@@ -13,7 +13,7 @@ export default function Navbar({mClass, mContainer, mainlogo, stickylogo, change
               <img src={require("../../image/" + mainlogo)} alt="" />
               <img src={require("../../image/" + stickylogo)} alt="" />
             </a>
-            <button
+            {/* <button
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
@@ -25,7 +25,7 @@ export default function Navbar({mClass, mContainer, mainlogo, stickylogo, change
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
-            </button>
+            </button> */}
             <div
               className="collapse navbar-collapse offset"
               id="navbarSupportedContent"
@@ -123,13 +123,13 @@ export default function Navbar({mClass, mContainer, mainlogo, stickylogo, change
                   </Link>
                 </li>
               </ul>
-              <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
+              {/* <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                 <Button onClick={() => {
                   changeBlog();
                 }}>
                   Blog
                 </Button>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </nav>
