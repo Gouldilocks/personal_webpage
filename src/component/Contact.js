@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Reveal from "react-reveal/Reveal";
 import Form from "./Form";
+import { Tutoring } from "./Tutoring";
 
 class Contact extends Component {
   render() {
@@ -13,7 +14,7 @@ class Contact extends Component {
               jhonData.contact.map((item) => {
                 return (
                   <React.Fragment key={item.id}>
-                    <div className="col-md-5">
+                    <div className="col-md-3">
                       <Reveal effect="fadeInLeft" duration={500}>
                         <div className="contact_info">
                           <h4>{item.title}</h4>
@@ -39,7 +40,7 @@ class Contact extends Component {
                   </React.Fragment>
                 );
               })}
-            <div className="col-md-7">
+            <div className="col-md-5">
               <Reveal effect="fadeInRight" duration={800}>
                 <div className="input_form">
                   <h4>{jhonData.contacttitle}</h4>
@@ -50,6 +51,9 @@ class Contact extends Component {
                   </div>
                 </div>
               </Reveal>
+            </div>
+            <div className="col-md-3">
+              <Tutoring />
             </div>
           </div>
         </div>
