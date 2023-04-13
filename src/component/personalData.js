@@ -60,6 +60,15 @@ const jhonData = {
       link: "https://github.com/Gouldilocks/Vmachine",
       button_name: "View On Github",
     },
+    {
+      id: 4, // id is used for the key in the map function
+      iconName: "https://upload.wikimedia.org/wikipedia/commons/0/07/Reddit_icon.svg",
+      serviceTitle: 'Personal Fun',
+      sDetails:
+        "I have created an automated bot that pulls data from the Reddit API, and using FFMPEG, it creates a video of the top posts of the day from the subreddit r/AskReddit. This bot is built with Python, and is able to run every day. It has a secondary function that allows it to automatically upload those videos onto tiktok, and it is able to do this without the TikTok API, but with the desktop application.",
+      link: "https://github.com/Gouldilocks/Reddit_Bot",
+      button_name: "View on Github",
+    },
   ],
   contact: [
     {
