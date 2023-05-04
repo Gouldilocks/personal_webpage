@@ -7,8 +7,7 @@ import JsFileDownloader from 'js-file-downloader';
 
 const fileUrl = 'https://github.com/Gouldilocks/currentResume/raw/main/Christian_Aaron_Gould_R.docx';
 class About extends Component {
-    render(){
-        let jhonData = this.props.jhonData; 
+    render(){ let jhonData = this.props.jhonData; 
         var {aClass} = this.props;
         return(
             <section className={`${aClass}`} id="about">
@@ -38,7 +37,7 @@ class About extends Component {
                         <div className="col-lg-5">
                             <div className="about_img">
                                 <Reveal effect="fadeInRight" duration={1500}>
-                                    <img src={require('../pictureofme.jpg')} alt="" />
+                                    <img src={require('../looking_away.jpg')} alt="" />
                                 </Reveal>
                             </div>
                         </div>
