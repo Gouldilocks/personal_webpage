@@ -33,15 +33,18 @@ const jhonData = {
       link: "http://ec2-18-208-183-26.compute-1.amazonaws.com:3000",
       button_name: "View The Demo",
     },
-    {
-      id: 1,
-      iconName: "https://www.w3schools.com/whatis/img_js.png",
-      serviceTitle: "Web Design",
-      sDetails:
-        "I have created a website from scratch, which is fully backend integrated, called \"Ranchy\". This website allows ranchers to more easily manage their ranch, and allows for the creation of new ranchs. This website is built with React, and was hosted on AWS. This website is fully responsive, and allows for mobile viewing",
-      link: "https://github.com/Gouldilocks/DB-GUI-S22",
-      button_name: "View On Github",
-    },
+    
+    // Don't really need this all to much right now
+    // {
+    //   id: 1,
+    //   iconName: "https://www.w3schools.com/whatis/img_js.png",
+    //   serviceTitle: "Web Design",
+    //   sDetails:
+    //     "I have created a website from scratch, which is fully backend integrated, called \"Ranchy\". This website allows ranchers to more easily manage their ranch, and allows for the creation of new ranchs. This website is built with React, and was hosted on AWS. This website is fully responsive, and allows for mobile viewing",
+    //   link: "https://github.com/Gouldilocks/DB-GUI-S22",
+    //   button_name: "View On Github",
+    // },
+
     {
       id: 2,
       iconName: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/machineLearning3.png",
@@ -51,6 +54,7 @@ const jhonData = {
       link: "https://github.com/Gouldilocks/piFace",
       button_name: "View On Github",
     },
+
     {
       id: 3,
       iconName: "https://media.istockphoto.com/vectors/orange-automatic-vending-machine-isolated-vector-illustration-vector-id836212440?k=20&m=836212440&s=612x612&w=0&h=MIAlYYISjL0TWAPyAgvVDU1jK9MRzceqPEDe913sKmU=",
@@ -60,6 +64,7 @@ const jhonData = {
       link: "https://github.com/Gouldilocks/Vmachine",
       button_name: "View On Github",
     },
+
     {
       id: 4, // id is used for the key in the map function
       iconName: "https://upload.wikimedia.org/wikipedia/commons/0/07/Reddit_icon.svg",
