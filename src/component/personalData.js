@@ -30,7 +30,7 @@ const jhonData = {
       serviceTitle: 'AI',
       sDetails:
         "I have created a Connect 4 AI, and have won the SMU 2022 AI competition with it. This AI uses the Minimax algorithm, and is built with Python. This AI is able to beat most human players, and was able to beat all other AI players in the SMU AI competition. I have made a website that allows you to play against this AI, although it is severely curbed in its ability to play, since on the deployment server, it is unable to run a great depth for the minimax algorithm.",
-      link: "http://ec2-18-208-183-26.compute-1.amazonaws.com:3000",
+      link: "http://76.85.68.153:3000",
       button_name: "View The Demo",
     },
     
@@ -67,7 +67,7 @@ const jhonData = {
 
     {
       id: 4, // id is used for the key in the map function
-      iconName: "https://upload.wikimedia.org/wikipedia/commons/0/07/Reddit_icon.svg",
+      iconName: "https://static.vecteezy.com/system/resources/previews/018/930/474/original/reddit-logo-reddit-icon-transparent-free-png.png",
       serviceTitle: 'Personal Fun',
       sDetails:
         "I have created an automated bot that pulls data from the Reddit API, and using FFMPEG, it creates a video of the top posts of the day from the subreddit r/AskReddit. This bot is built with Python, and is able to run every day. It has a secondary function that allows it to automatically upload those videos onto tiktok, and it is able to do this without the TikTok API, but with the desktop application.",
