@@ -11,7 +11,11 @@ let Experiences = [
         date: 'August 2023 - Present',
         image: 'https://fastly.4sqi.net/img/general/600x600/87384844_PpnZd5jAGeEuglj3VU-1BBaS1hY4h2_hsP-PAGPrKKc.jpg',
         description: [
-            'has not begun yet',
+            'Collaborated with a team of 5 engineers to manage releases and environments effectively',
+            'Automated testing procedures to ensure smooth operation of environments',
+            'Implemented automated deployment of testing outcomes in UI environments, enhancing efficiency',
+            'Developed and managed multiple Jenkins scripts to streamline maintenance tasks for dev and QA environments',
+            'Actively engaged in daily stand-up meetings within a Scrum Agile framework, focusing on environment maintenance and upkeep'
         ],
     }
     ,{

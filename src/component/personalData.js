@@ -30,8 +30,8 @@ const jhonData = {
       serviceTitle: 'AI',
       sDetails:
         "I have created a Connect 4 AI, and have won the SMU 2022 AI competition with it. This AI uses the Minimax algorithm, and is built with Python. This AI is able to beat most human players, and was able to beat all other AI players in the SMU AI competition. I have made a website that allows you to play against this AI, although it is severely curbed in its ability to play, since on the deployment server, it is unable to run a great depth for the minimax algorithm.",
-      link: "http://76.85.68.153:3000",
-      button_name: "View The Demo",
+      link: "https://github.com/Gouldilocks/connect_4_website/tree/main",
+      button_name: "View The Github",
     },
     
     // Don't really need this all to much right now
